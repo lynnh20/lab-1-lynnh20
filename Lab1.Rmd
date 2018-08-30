@@ -1,10 +1,8 @@
----
-title: "Lab1"
-author: "Lynn Huang"
-date: "August 30, 2018"
-output: html_document
----
-
+| Authors  | Lynn Huang / Prateek Oberoi |
+| ------------- | ------------- |
+| Github handle  | lynnh20  / PrateekO |
+| Pull requests  | 0  / 0 |
+| Accepted requests  | 0  / 0 |
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -14,14 +12,3 @@ library(ggplot2)
 library(dplyr)
 data = read.csv("gapminder-5060.csv")
 ```
-
-```{r}
-rel = data %>% filter(country == "China" | country == "Guatemala" | country == "Morocco")
-rel %>% ggplot(aes(x = gdpPercap, y = lifeExp, color = country)) + geom_line() + ggtitle("Life Expectancy vs GDP per Capita")
-```
-
-
-
-
-
-

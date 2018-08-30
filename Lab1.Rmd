@@ -1,0 +1,16 @@
+---
+title: "Lab1"
+author: "Lynn Huang"
+date: "August 30, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+data = read.csv("gapminder-5060.csv")
+```

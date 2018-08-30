@@ -16,7 +16,7 @@ data = read.csv("gapminder-5060.csv")
 ```
 
 ```{r}
-rel = data %>% filter(country == "China" | country == "Guatamala" | country == "Russia")
+rel = data %>% filter(country == "China" | country == "Guatemala" | country == "Morocco")
 rel %>% ggplot(aes(x = gdpPercap, y = lifeExp, color = country)) + geom_line() + ggtitle("Life Expectancy vs GDP per Capita")
 ```
 

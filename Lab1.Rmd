@@ -14,3 +14,14 @@ library(ggplot2)
 library(dplyr)
 data = read.csv("gapminder-5060.csv")
 ```
+
+```{r}
+rel = data %>% filter(country == "China" | country == "Guatamala" | country == "Russia")
+rel %>% ggplot(aes(x = gdpPercap, y = lifeExp, color = country)) + geom_line() + ggtitle("Life Expectancy vs GDP per Capita")
+```
+
+
+
+
+
+

@@ -1,8 +1,10 @@
-| Authors  | Lynn Huang / Prateek Oberoi |
-| ------------- | ------------- |
-| Github handle  | lynnh20  / PrateekO |
-| Pull requests  | 0  / 0 |
-| Accepted requests  | 0  / 0 |
+| Authors  | Lynn Huang | Prateek Oberoi |
+| ------------- | ------------- |--------------|
+| Github handle  | lynnh20  | PrateekO |
+| Pull requests  | 0  | 2 |
+| Accepted requests  | 2  | 0 |
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```

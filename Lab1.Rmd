@@ -1,8 +1,8 @@
 | Authors  | Lynn Huang | Prateek Oberoi |
 | ------------- | ------------- |--------------|
 | Github handle  | lynnh20  | PrateekO |
-| Pull requests  | 0  | 2 |
-| Accepted requests  | 2  | 0 |
+| Pull requests  | 1  | 3 |
+| Accepted requests  | 3 | 1 |
 
 
 ```{r setup, include=FALSE}
@@ -19,3 +19,11 @@ data = read.csv("gapminder-5060.csv")
 rel = data %>% filter(country == "China" | country == "Guatemala" | country == "Morocco")
 rel %>% ggplot(aes(x = gdpPercap, y = lifeExp, color = country)) + geom_line() + ggtitle("Life Expectancy vs GDP per Capita")
 ```
+In China, Guatemala, and Morocco, life expectancy increases as GDP per capita increases. Morocco had a year where their life expectancy and GDP didn't follow the expected trends. 
+
+Tips to make github easier to use:
+1. Learn the syntax (like how to make a table)
+2. Talk to your collaborators
+3. Learn less obvious features like insights
+
+

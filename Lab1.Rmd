@@ -1,8 +1,8 @@
-| Authors  | Lynn Huang | Prateek Oberoi |
-| ------------- | ------------- |--------------|
-| Github handle  | lynnh20  | PrateekO |
-| Pull requests  | 1  | 3 |
-| Accepted requests  | 3 | 1 |
+| Authors  | Lynn Huang | Prateek Oberoi | Aisha Washington |
+| ------------- | ------------- |--------------| --------------|
+| Github handle  | lynnh20  | PrateekO | washer-machine |
+| Pull requests  | 1  | 3 | 1 |
+| Accepted requests  | 3 | 1 | 1 |
 
 
 ```{r setup, include=FALSE}
